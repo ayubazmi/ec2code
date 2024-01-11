@@ -22,6 +22,5 @@ resource "aws_instance" "prod_instance" {
   tags = {
     Name = "prod-instance"
   }
-
 }
 
